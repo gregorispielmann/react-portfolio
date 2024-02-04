@@ -58,6 +58,9 @@
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
+
+  border-radius: 100%;
+  margin-left: 2rem;
 }
 
 @keyframes floating {

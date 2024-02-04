@@ -8,19 +8,28 @@ export const About = () => {
     <section className={styles.container} id="about">
       <h2 className={styles.title}>About</h2>
       <div className={styles.content}>
-        <img
-          src={getImageUrl("about/aboutImage.png")}
+        {/* <img
+          src={getImageUrl("about/me.jpeg")}
           alt="Me sitting with a laptop"
           className={styles.aboutImage}
-        />
+        /> */}
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
             <div className={styles.aboutItemText}>
+              <h3>Senior Software Engineer</h3>
+              <p>
+                I'm a senior software engineer with experience in building web and mobile apps
+              </p>
+            </div>
+          </li>
+          <li className={styles.aboutItem}>
+            <img src={getImageUrl("about/uiIcon.png")} alt="UI icon" />
+            <div className={styles.aboutItemText}>
               <h3>Frontend Developer</h3>
               <p>
-                I'm a frontend developer with experience in building responsive
-                and optimized sites
+                I have worked on multiple frontend (web and mobile) applications and created some cool
+                systems as well
               </p>
             </div>
           </li>
@@ -31,16 +40,6 @@ export const About = () => {
               <p>
                 I have experience developing fast and optimised back-end systems
                 and APIs
-              </p>
-            </div>
-          </li>
-          <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/cursorIcon.png")} alt="UI icon" />
-            <div className={styles.aboutItemText}>
-              <h3>UI Designer</h3>
-              <p>
-                I have designed multiple landing pages and have created design
-                systems as well
               </p>
             </div>
           </li>
